@@ -50,6 +50,8 @@ void loop() {
     } else {
       speedX = 0;
       speedZ = 0;
+      engie1.smoothTick(0);
+      engie2.smoothTick(0);
     }
   }
 }
