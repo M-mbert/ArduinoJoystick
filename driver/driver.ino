@@ -47,6 +47,9 @@ void loop() {
         engie1.smoothTick(speedX-speedZ);
         engie2.smoothTick(speedX+speedZ);
       }
+    } else {
+      speedX = 0;
+      speedZ = 0;
     }
   }
 }
